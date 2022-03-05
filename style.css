@@ -1,21 +1,42 @@
-p {
-    color: red;
-}
 
 h3 {
     background: gray;
 }
+    /* center image*/
 
 img {
         
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 20%;
+        
       }
+
+      /* BG image aligned */
+
+.about {
+    background-color: ;
+    text-align: center;
+    background-image: url("https://images.newscientist.com/wp-content/uploads/2020/09/16181027/credit_mohamed-khaki-eyeem-getty-images_web.jpg?crop=16:9,smart&width=1200&height=675&upscale=true");
+    background-size: 100% 100%;
+}
+
+    /* centered headers */
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border-style: double;
+    border-radius: 50%;
+    border-width: 10px;
 }
 
 div {
-    margin-left: auto;
-        margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    border-style: dotted;
+    height: 10em;
 }
